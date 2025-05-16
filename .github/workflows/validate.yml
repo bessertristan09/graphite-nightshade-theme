@@ -1,4 +1,4 @@
-ame: Validate
+name: Validate
 
 on:
   push:
