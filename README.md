@@ -22,7 +22,22 @@ Graphite Nightshade features a deep, modern color palette, soft edges, and clean
 
 ## 📸 Screenshots
 
-*(Add some screenshots here later if you want to show off your style!)*
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/00f7e6d7-c164-4715-944d-b0a4c5faea3b" width="80%"><br>
+  <sub>💡 Classic dark mode without wallpaper</sub>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1545cd5e-7f37-422b-9f5c-18705617c53d" width="80%"><br>
+  <sub>📊 Card detail view with temperature curve</sub>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/909468ae-8bb1-4552-a141-54c9cbc2468f" width="80%"><br>
+  <sub>🌈 Graphite Nightshade with gradient wallpaper</sub>
+</p>
+
+
 
 ---
 
