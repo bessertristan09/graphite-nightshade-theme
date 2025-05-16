@@ -1,0 +1,9 @@
+{
+  "name": "Graphite Nightshade",
+  "description": "A refined dark theme for Home Assistant, based on Graphite and reimagined by Tristan Besser.",
+  "filename": "themes/graphite-nightshade.yaml",
+  "render_readme": true,
+  "type": "theme",
+  "homeassistant": "2025.5.0",
+  "content_in_root": false
+}
