@@ -45,6 +45,21 @@ Graphite Nightshade features a deep, modern color palette, soft edges, and clean
 4. **Select the theme in your user profile:**  
    → *Profile → Themes → Graphite Nightshade*
 
+## 🔣 Font:
+**This theme uses 1 custom font via Google Fonts, you will need to add this as a resource in order to use the same fonts.**
+1. Click on ```configuration``` within Home Assistant
+2. Click on ```Lovelace Dashboards```
+3. Click the ```Resources``` tab at the top
+4. Click the ```+ Add Resource``` button
+5. You will need to add the following URL and set the *resource type* to ```Stylesheet```, then click on ```create```.
+   *URL to copy*:
+
+    ```CSS
+    https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap
+    ``` 
+   
+6. Once the above is complete, you will **need to restart your Home Assistant server** for the changes to come into affect.
+
 ---
 
 ## 💡 Requirements
