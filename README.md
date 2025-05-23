@@ -46,39 +46,45 @@ Graphite Nightshade features a deep, modern color palette, soft edges, and clean
 
 ---
 
-## 📦 Installation
+## 📦 Installation (2 ways):
 
-1. **Add this repository to HACS:**
+1. **Install HACS**
+> If you haven't already, [install HACS](https://hacs.xyz/docs/use/) by following the official guide.
+
+2a. **Add this repository to HACS manually:**
    - Go to HACS → Frontend → Click the three dots menu → *Custom repositories*
    - Add: `https://github.com/bessertristan09/graphite-nightshade`
    - Category: `Theme`
 
-2. **Install the theme**
+2b. **Add this repository via the "My Home Assistant"-Link:**
+ > [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bessertristan09&repository=graphite-nightshade-theme&category=theme)
 
-3. **Enable in your `configuration.yaml` if not already done:**
+3. **Install the theme**
+
+4. **Enable in your `configuration.yaml` if not already done:**
 
    ```yaml
    frontend:
      themes: !include_dir_merge_named themes
    ```
 
-4. **Select the theme in your user profile:**  
+5. **Select the theme in your user profile:**  
    → *Profile → Themes → Graphite Nightshade*
 
-## 🔣 Font:
-**This theme uses 1 custom font via Google Fonts, you will need to add this as a resource in order to use the same fonts.**
-1. Click on ```configuration``` within Home Assistant
-2. Click on ```Lovelace Dashboards```
-3. Click the ```Resources``` tab at the top
-4. Click the ```+ Add Resource``` button
-5. You will need to add the following URL and set the *resource type* to ```Stylesheet```, then click on ```create```.
-   *URL to copy*:
-
-    ```CSS
-    https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap
-    ``` 
+6. (optional):
+> ## 🔣 Font:
+> **This theme uses 1 custom font via Google Fonts, you will need to add this as a resource in order to use the same fonts.**
+> 1. Click on ```configuration``` within Home Assistant
+> 2. Click on ```Lovelace Dashboards```
+> 3. Click the ```Resources``` tab at the top
+> 4. Click the ```+ Add Resource``` button
+> 5. You will need to add the following URL and set the *resource type* to ```Stylesheet```, then click on ```create```.
+> *URL to copy*:
+  ```CSS
+  https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap
+  ``` 
    
-6. Once the above is complete, you will **need to restart your Home Assistant server** for the changes to come into affect.
+7. Once the above is complete, you will **need to restart your Home Assistant server** for the changes to come into affect.
 
 ---
 
