@@ -23,18 +23,23 @@ Graphite Nightshade features a deep, modern color palette, soft edges, and clean
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/00f7e6d7-c164-4715-944d-b0a4c5faea3b" width="80%"><br>
+  <img src="https://github.com/user-attachments/assets/d44a54b8-cd72-45da-982f-d33955de9400" width="80%"><br>
   <sub>💡 Classic dark mode without wallpaper</sub>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1545cd5e-7f37-422b-9f5c-18705617c53d" width="80%"><br>
-  <sub>📊 Card detail view with temperature curve</sub>
+  <img src="https://github.com/user-attachments/assets/b8ab1677-8891-43e2-abd4-ccbb5dd103a4" width="80%"><br>
+  <sub>🌈 Graphite Nightshade with gradient wallpaper and sidebar</sub>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/909468ae-8bb1-4552-a141-54c9cbc2468f" width="80%"><br>
-  <sub>🌈 Graphite Nightshade with gradient wallpaper</sub>
+  <img src="https://github.com/user-attachments/assets/b216cc8b-7f2f-41c9-84a7-505d6f8615be" width="80%"><br>
+  <sub>📊 Card detail view with VOC index curve</sub>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/143479c3-73e0-4194-a0f0-9cca043e0624" width="80%"><br>
+  <sub>🌈 Energy Dashboard with some nice colors for various devices</sub>
 </p>
 
 
