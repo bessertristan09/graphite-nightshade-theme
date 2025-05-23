@@ -7,17 +7,16 @@ Graphite Nightshade:
   # Big thanks to Tilman Griesel for creating the original base theme, which served as the foundation for this version.
   # This theme is distributed under the terms of the MIT license. See LICENSE for details.
   #
-  # Version: 1.0.0
+  # Version: 1.0.0-beta1
   # Author: Tristan Besser
   # License: MIT
-  # Last updated: 2025-05-16
+  # Last updated: 2025-05-23
   # Repository: https://github.com/bessertristan09/graphite-nightshade-theme
 
   ##################################################
   # Theme color tokens
   ##################################################
-
-  token-rgb-primary: 102, 140, 255 #The primary color
+  token-rgb-primary: 100, 149, 237  #The primary color
   token-rgb-black: 0, 0, 0
   token-rgb-white: 240, 243, 255
   token-rgb-purple: 189, 157, 255
@@ -43,7 +42,7 @@ Graphite Nightshade:
   token-rgb-state-inactive: 123, 126, 139
   token-color-primary: rgb(var(--token-rgb-primary))
   token-color-primary-light: rgb(105 124 144)
-  token-color-accent: var(--token-color-primary)
+  token-color-accent: rgb(140, 170, 255)
   token-color-disabled: rgba(255, 255, 255, 0.2)
   token-color-feedback-info: rgb(39, 209, 246)
   token-color-feedback-warning: rgb(255, 219, 117)
@@ -52,7 +51,7 @@ Graphite Nightshade:
   token-color-icon-primary: rgb(228, 228, 231)
   token-color-icon-secondary: rgb(181, 191, 255)
   token-color-icon-sidebar: rgb(147, 149, 159)
-  token-color-icon-sidebar-selected: rgb(174, 176, 183)
+  token-color-icon-sidebar-selected: var(--token-color-primary)
   token-color-text-primary: rgb(228, 228, 231)
   token-color-text-secondary: rgb(200, 206, 255)
   token-color-text-disabled: rgba(255, 255, 255, 0.5)
@@ -69,6 +68,7 @@ Graphite Nightshade:
   token-color-background-card: rgba(37, 38, 45, 0.35)
   token-color-background-card2: rgba(34, 35, 42, 0.9)
   token-color-background-skrim: rgba(0, 0, 3, 0.9)
+  token-color-background-navbar: rgba(0, 0, 0, 0)
   token-color-background-divider: var(--token-color-background-sidebar)
   token-color-background-scrollbar-thumb: rgb(46, 48, 56)
   token-color-background-label-badge-red: var(--token-color-feedback-error)
@@ -203,7 +203,7 @@ Graphite Nightshade:
   clear-background-color: var(--token-color-background-input-base)
   ##################################################
   # Navbar
-  app-header-background-color: var(--primary-background-sidebar)
+  app-header-background-color: var(--token-color-background-navbar)
   app-header-text-color: var(--token-color-icon-primary)
   app-header-edit-background-color: var(--token-color-background-card)
   ##################################################
@@ -213,6 +213,7 @@ Graphite Nightshade:
   sidebar-background-color: var(--token-color-background-sidebar)
   sidebar-selected-icon-color: var(--token-color-icon-sidebar-selected)
   sidebar-selected-text-color: var(--token-color-text-sidebar-selected)
+  ha-sidebar-border-radius: 18px
   ##################################################
   # Cards
   border-radius: var(--token-size-radius-card)
@@ -322,6 +323,42 @@ Graphite Nightshade:
   rgb-black-color: var(--token-rgb-black)
   rgb-disabled-color: var(--token-rgb-disabled)
   rgb-state-inactive-color: var(--token-rgb-state-inactive)
+
+  ##################################################
+  #Energy Dashboard
+  energy-grid-consumption-color-0:  rgb(0, 80, 255)      # Royal Blue
+  energy-grid-consumption-color-1:  rgb(20, 90, 255)
+  energy-grid-consumption-color-2:  rgb(40, 100, 255)
+  energy-grid-consumption-color-3:  rgb(60, 110, 255)
+  energy-grid-consumption-color-4:  rgb(80, 120, 255)
+  energy-grid-consumption-color-5:  rgb(100, 130, 255)
+  energy-grid-consumption-color-6:  rgb(120, 140, 255)
+  energy-grid-consumption-color-7:  rgb(140, 150, 255)
+  energy-grid-consumption-color-8:  rgb(160, 155, 255)
+  energy-grid-consumption-color-9:  rgb(180, 160, 255)
+
+  energy-grid-consumption-color-10: rgb(190, 165, 250)   # Lavender
+  energy-grid-consumption-color-11: rgb(200, 170, 245)
+  energy-grid-consumption-color-12: rgb(210, 175, 240)
+  energy-grid-consumption-color-13: rgb(220, 180, 235)
+  energy-grid-consumption-color-14: rgb(230, 190, 230)
+  energy-grid-consumption-color-15: rgb(235, 200, 225)
+  energy-grid-consumption-color-16: rgb(240, 210, 230)
+  energy-grid-consumption-color-17: rgb(230, 220, 240)
+  energy-grid-consumption-color-18: rgb(220, 230, 250)
+  energy-grid-consumption-color-19: rgb(210, 240, 255)
+
+  energy-grid-consumption-color-20: rgb(200, 245, 255)   # Baby Blue
+  energy-grid-consumption-color-21: rgb(190, 248, 255)
+  energy-grid-consumption-color-22: rgb(180, 250, 255)
+  energy-grid-consumption-color-23: rgb(170, 252, 255)
+  energy-grid-consumption-color-24: rgb(160, 254, 255)
+  energy-grid-consumption-color-25: rgb(180, 255, 255)
+  energy-grid-consumption-color-26: rgb(200, 255, 255)
+  energy-grid-consumption-color-27: rgb(220, 255, 255)
+  energy-grid-consumption-color-28: rgb(240, 255, 255)
+  energy-grid-consumption-color-29: rgb(250, 255, 255)   # Almost White
+
   ##################################################
   # Extentions
   ##################################################
