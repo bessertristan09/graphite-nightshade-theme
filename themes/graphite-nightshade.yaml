@@ -172,8 +172,8 @@ Graphite Nightshade:
   ha-heading-card-title-font-size: var(--token-size-font-title-card)
   ha-heading-card-title-font-weight: var(--token-weight-font-title-card)
   
-  md-list-item-label-text-font: "Figtree"
-  md-ref-typeface-plain: "Figtree"       # optional fallback
+  md-list-item-label-text-font: var(--token-font-family-primary)
+  md-ref-typeface-plain: var(--token-font-family-primary)
 
   ##################################################
   # Text
