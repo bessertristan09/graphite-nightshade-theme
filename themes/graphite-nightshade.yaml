@@ -171,9 +171,10 @@ Graphite Nightshade:
   title-font-size: var(--token-size-font-title)
   ha-heading-card-title-font-size: var(--token-size-font-title-card)
   ha-heading-card-title-font-weight: var(--token-weight-font-title-card)
-  
-  md-list-item-label-text-font: var(--token-font-family-primary)
-  md-ref-typeface-plain: var(--token-font-family-primary)
+
+  # Material Design (md-)-tokens (e.g. for sidebar style, optional)
+  #md-list-item-label-text-font: var(--token-font-family-primary)
+  #md-ref-typeface-plain: var(--token-font-family-primary)
 
   ##################################################
   # Text
