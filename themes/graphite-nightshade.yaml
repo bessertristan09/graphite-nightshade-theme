@@ -7,7 +7,7 @@ Graphite Nightshade:
   # Big thanks to Tilman Griesel for creating the original base theme, which served as the foundation for this version.
   # This theme is distributed under the terms of the MIT license. See LICENSE for details.
   #
-  # Version: 1.0.0-beta1
+  # Version: 1.0.0-beta2
   # Author: Tristan Besser
   # License: MIT
   # Last updated: 2025-05-23
@@ -171,6 +171,9 @@ Graphite Nightshade:
   title-font-size: var(--token-size-font-title)
   ha-heading-card-title-font-size: var(--token-size-font-title-card)
   ha-heading-card-title-font-weight: var(--token-weight-font-title-card)
+  
+  md-list-item-label-text-font: "Figtree"
+  md-ref-typeface-plain: "Figtree"       # optional fallback
 
   ##################################################
   # Text
