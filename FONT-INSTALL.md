@@ -41,6 +41,7 @@ If your browser doesn’t render the Figtree font properly (especially after ref
 ### ✅ 4. Done!
 
 The Figtree font is now installed on your computer and will be available system-wide – including as a fallback in browsers if the web font fails to load.
+> 💡 Don't forget to restart your Home Assistant instance and your computer! 😜
 
 ---
 
