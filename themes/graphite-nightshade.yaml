@@ -129,7 +129,7 @@ Graphite Nightshade:
   token-weight-font-title-card: 600
   ##################################################
   # Font family
-  token-font-family-primary: "Figtree"
+  token-font-family-primary: "Figtree, sans-serif"
 
   ##################################################
   # Definitions
@@ -173,8 +173,8 @@ Graphite Nightshade:
   ha-heading-card-title-font-weight: var(--token-weight-font-title-card)
 
   # Material Design (md-)-tokens (e.g. for sidebar style, optional)
-  #md-list-item-label-text-font: var(--token-font-family-primary)
-  #md-ref-typeface-plain: var(--token-font-family-primary)
+  md-list-item-label-text-font: var(--token-font-family-primary)
+  md-ref-typeface-plain: var(--token-font-family-primary)
 
   ##################################################
   # Text
