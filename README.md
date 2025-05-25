@@ -42,7 +42,18 @@ Graphite Nightshade features a deep, modern color palette, soft edges, and clean
   <sub>🌈 Energy Dashboard with some nice colors for various devices</sub>
 </p>
 
+---
 
+## 💡 Requirements
+
+- Home Assistant Core `2025.5.0` or higher (for full `ha-*` token support for fonts)
+
+### 🧩 Optional, but highly recommended: Install the Figtree Font Locally (Windows)
+
+If your browser fails to render the [Figtree](https://fonts.google.com/specimen/Figtree) font correctly (especially after reloading non-dashboard pages),  
+you can install it directly on your system as a fallback solution.
+
+👉 [Click here for the installation guide](./FONT-INSTALL.md)
 
 ---
 
@@ -71,7 +82,7 @@ Graphite Nightshade features a deep, modern color palette, soft edges, and clean
 5. **Select the theme in your user profile:**  
    → *Profile → Themes → Graphite Nightshade*
    
-6.:
+6.
  ## 🔣 Font:
  **This theme uses 1 custom font via Google Fonts, you will need to add this as a resource in order to use the same fonts.**
  1. Click on ```configuration``` within Home Assistant
@@ -85,12 +96,6 @@ Graphite Nightshade features a deep, modern color palette, soft edges, and clean
   ``` 
    
 7. Once the above is complete, you will **need to restart your Home Assistant server** for the changes to come into affect.
-
----
-
-## 💡 Requirements
-
-- Home Assistant Core `2025.5.0` or higher (for full `ha-*` token support for fonts)
 
 ---
 
