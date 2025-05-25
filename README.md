@@ -70,6 +70,7 @@ Graphite Nightshade features a deep, modern color palette, soft edges, and clean
 
 5. **Select the theme in your user profile:**  
    → *Profile → Themes → Graphite Nightshade*
+   
 6.:
  ## 🔣 Font:
  **This theme uses 1 custom font via Google Fonts, you will need to add this as a resource in order to use the same fonts.**
@@ -90,7 +91,6 @@ Graphite Nightshade features a deep, modern color palette, soft edges, and clean
 ## 💡 Requirements
 
 - Home Assistant Core `2025.5.0` or higher (for full `ha-*` token support for fonts)
-- [card-mod](https://github.com/thomasloven/lovelace-card-mod) (optional, but recommended)
 
 ---
 
