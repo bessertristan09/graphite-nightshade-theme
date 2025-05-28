@@ -1,4 +1,8 @@
 # 🌒 Graphite Nightshade
+![Release](https://img.shields.io/github/v/release/bessertristan09/graphite-nightshade-theme?style=for-the-badge&color=4169E1)
+![Contributors](https://img.shields.io/github/contributors/bessertristan09/graphite-nightshade-theme?style=for-the-badge&color=4169E1)
+![Licence](https://img.shields.io/badge/Licence-MIT-darkgreen?style=for-the-badge)
+![maintained](https://img.shields.io/badge/maintained-yes-darkgreen?style=for-the-badge)
 
 **A refined and atmospheric dark theme for Home Assistant**, based on the original [Graphite Theme](https://github.com/TilmanGriesel/graphite) by Tilman Griesel — and reimagined by [Tristan Besser](https://github.com/bessertristan09).
 
